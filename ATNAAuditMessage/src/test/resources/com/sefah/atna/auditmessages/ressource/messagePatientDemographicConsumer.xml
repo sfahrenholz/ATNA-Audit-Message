@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-27T11:18:13.656+01:00" EventActionCode="E" EventOutcomeIndicator="0">
+        <EventID csd-code="110112" originalText="Query" codeSystemName="DCM"/>
+        <EventTypeCode csd-code="ITI-21" originalText="Patient Demographics Query" codeSystemName="IHE Transactions"/>
+    </EventIdentification>
+    <ActiveParticipant UserID="123456" AlternativUserID="123456" NetworkAccessPointTypeCode="2" NetworkAccessPointID="127.0.0.1">
+        <RoleIDCode csd-code="110153" originalText="Source" codeSystemName="DCM"/>
+    </ActiveParticipant>
+    <ActiveParticipant UserID="123456"/>
+    <ActiveParticipant UserID="123456" NetworkAccessPointTypeCode="2" NetworkAccessPointID="127.0.0.1">
+        <RoleIDCode csd-code="110152" originalText="Destination" codeSystemName="DCM"/>
+    </ActiveParticipant>
+    <AuditSourceIdentification/>
+    <ParticipantObjectIdentification ParticipantObjectIDTypeCode="1" ParticipantObjectTypeCodeRole="1" ParticipantObjectID="patientsID"/>
+    <ParticipantObjectIdentification ParticipantObjectIDTypeCode="2" ParticipantObjectTypeCodeRole="24" ParticipantObjectID="patientsID" ParticipantObjectQuery="participantObjectQuery" ParticipantObjectDetail="participantObjectDetail">
+        <ParticipantObjectIDTypeCode csd-code="ITI-21" originalText="Patient Demographics Query" codeSystemName="IHE Transactions"/>
+    </ParticipantObjectIdentification>
+</AuditMessage>

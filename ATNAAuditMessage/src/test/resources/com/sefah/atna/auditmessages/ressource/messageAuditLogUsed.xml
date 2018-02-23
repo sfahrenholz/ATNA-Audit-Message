@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-27T11:18:13.656+01:00" EventActionCode="R" EventOutcomeIndicator="0">
+        <EventID csd-code="110101" originalText="Audit Log Used" codeSystemName="DCM"/>
+    </EventIdentification>
+    <ActiveParticipant UserID="123456" UserIsRequestor="true"/>
+    <ParticipantObjectIdentification ParticipantObjectIDTypeCode="2" ParticipantObjectTypeCodeRole="13" ParticipantObjectID="The URI of the audit log" ParticipantObjectName="Shall be: &quot;Security Audit Log&quot;">
+        <ParticipantObjectIDTypeCode csd-code="12" originalText="URI"/>
+    </ParticipantObjectIdentification>
+</AuditMessage>

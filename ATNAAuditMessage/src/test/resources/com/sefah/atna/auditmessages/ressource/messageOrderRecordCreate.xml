@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-27T11:18:13.656+01:00" EventActionCode="C" EventOutcomeIndicator="0">
+        <EventID csd-code="110109" originalText="Order Record" codeSystemName="DCM"/>
+    </EventIdentification>
+    <ActiveParticipant UserID="123456"/>
+    <ParticipantObjectIdentification ParticipantObjectIDTypeCode="1" ParticipantObjectTypeCodeRole="1" ParticipantObjectID="The patient ID">
+        <ParticipantObjectIDTypeCode csd-code="2" originalText="Patient ID"/>
+    </ParticipantObjectIdentification>
+</AuditMessage>

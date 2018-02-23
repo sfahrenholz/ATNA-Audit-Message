@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-26T11:39:05.859+01:00" EventActionCode="E" EventOutcomeIndicator="0">
+        <EventID csd-code="110114" originalText="User Authentication" codeSystemName="DCM"/>
+        <EventTypeCode csd-code="110123" originalText="Logout" codeSystemName="DCM"/>
+    </EventIdentification>
+    <ActiveParticipant/>
+    <AuditSourceIdentification/>
+</AuditMessage>

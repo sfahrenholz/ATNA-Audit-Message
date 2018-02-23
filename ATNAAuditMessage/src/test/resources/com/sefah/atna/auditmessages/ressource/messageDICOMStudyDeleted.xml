@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-27T11:18:13.656+01:00" EventActionCode="C" EventOutcomeIndicator="0">
+        <EventID csd-code="110105" originalText="DICOM Study Deleted" codeSystemName="DCM"/>
+    </EventIdentification>
+    <ActiveParticipant UserID="123456" UserIsRequestor="true"/>
+    <ActiveParticipant UserID="123456" UserIsRequestor="false"/>
+    <ParticipantObjectIdentification ParticipantObjectIDTypeCode="2" ParticipantObjectTypeCodeRole="3" ParticipantObjectID="The Study Instance UID">
+        <ParticipantObjectIDTypeCode csd-code="110180" originalText="Study Instance UID" codeSystemName="DCM"/>
+        <SOPClass>1.2</SOPClass>
+        <SOPClass>1.3</SOPClass>
+    </ParticipantObjectIdentification>
+    <ParticipantObjectIdentification ParticipantObjectIDTypeCode="1" ParticipantObjectTypeCodeRole="1" ParticipantObjectID="The patient ID" ParticipantObjectName="Patients Name">
+        <ParticipantObjectIDTypeCode csd-code="2" originalText="Patient ID"/>
+    </ParticipantObjectIdentification>
+</AuditMessage>

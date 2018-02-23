@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-27T11:18:13.656+01:00" EventActionCode="E" EventOutcomeIndicator="0">
+        <EventID csd-code="110108" originalText="Network Entry" codeSystemName="DCM"/>
+        <EventTypeCode csd-code="110125" originalText="Detach" codeSystemName="DCM"/>
+    </EventIdentification>
+    <ActiveParticipant UserID="123456" UserIsRequestor="false"/>
+</AuditMessage>

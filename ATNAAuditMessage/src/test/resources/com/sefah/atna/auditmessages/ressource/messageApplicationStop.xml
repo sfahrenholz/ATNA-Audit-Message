@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AuditMessage>
+    <EventIdentification EventDateTime="2018-01-27T11:18:13.656+01:00" EventActionCode="E" EventOutcomeIndicator="0">
+        <EventID csd-code="110100" originalText="Application Activity" codeSystemName="DCM"/>
+        <EventTypeCode csd-code="110121" originalText="Application Stop" codeSystemName="DCM"/>
+    </EventIdentification>
+    <ActiveParticipant UserID="123456" AlternativUserID="123456" UserIsRequestor="false" NetworkAccessPointTypeCode="2" NetworkAccessPointID="127.0.0.1">
+        <RoleIDCode csd-code="110150" originalText="Application" codeSystemName="DCM"/>
+    </ActiveParticipant>
+    <AuditSourceIdentification AuditSourceID="SEF@AuditMessage"/>
+</AuditMessage>
